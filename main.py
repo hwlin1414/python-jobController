@@ -4,7 +4,7 @@
 import time
 import jobController
 
-def handler(job, index, args):
+def handler(index, job, args):
     time.sleep(1)
     print("handled job({args}): {job}".format(args = args, job = job))
 
